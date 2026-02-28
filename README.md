@@ -63,6 +63,8 @@ Set up a Mail Rule (`Settings > Rules`) to trigger this script automatically bas
 
 Download the email-to-obsidian.scpt to your system. You can then set up the script as above in **Usage Models**. 
 
+---
+
 ## ⚖️ License & Contributions
 
 ### MIT License
