@@ -1,5 +1,5 @@
 # ===========================================================
-# Apple Mail to Markdown Export (v2.7)
+# Apple Mail to Markdown Export (v2.8)
 # Optimized for Obsidian & Layout Preservation
 # ===========================================================
 
@@ -70,7 +70,7 @@ tell application "Mail"
 		
 		set filePrefix to (y & "-" & m & "-" & d & "-" & h & min & s) as string
 		set safeSubject to my sanitizeFilename(msgSubject)
-		set fileName to filePrefix & "-" & safeSubject & ".markdownContent"
+		set fileName to filePrefix & "-" & safeSubject & ".md"
 		set filePath to (saveFolder & fileName) as string
 		
 		-- Construct Markdown with YAML Frontmatter
